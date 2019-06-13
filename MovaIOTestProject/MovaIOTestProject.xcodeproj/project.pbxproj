@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		491A44BE22B19FDB00413402 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491A44BD22B19FDB00413402 /* AppDelegate.swift */; };
+		491A44C522B19FDC00413402 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 491A44C422B19FDC00413402 /* Assets.xcassets */; };
+		491A44C822B19FDC00413402 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 491A44C622B19FDC00413402 /* LaunchScreen.storyboard */; };
+		491A44D222B1B69300413402 /* FlickrNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491A44D122B1B69300413402 /* FlickrNetworkManager.swift */; };
+		491A44D422B1BD2500413402 /* FlickrSearchingResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491A44D322B1BD2500413402 /* FlickrSearchingResponseModel.swift */; };
+		491A44D622B1C12C00413402 /* FlickrSearchingHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491A44D522B1C12B00413402 /* FlickrSearchingHistoryViewController.swift */; };
+		49A5254922B2E7CA00674118 /* SearchingPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A5254822B2E7CA00674118 /* SearchingPhoto.swift */; };
+		49A5254D22B2E83700674118 /* HistoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A5254C22B2E83700674118 /* HistoryCollectionViewCell.swift */; };
+		49A5255022B2EAF600674118 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A5254F22B2EAF600674118 /* Constants.swift */; };
+		C3E9E74BBCC875E34C173245 /* Pods_MovaIOTestProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 870E79F0E7C38138E93B031F /* Pods_MovaIOTestProject.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3318EEFBEFAAA25415354865 /* Pods-MovaIOTestProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovaIOTestProject.debug.xcconfig"; path = "Target Support Files/Pods-MovaIOTestProject/Pods-MovaIOTestProject.debug.xcconfig"; sourceTree = "<group>"; };
+		491A44BA22B19FDB00413402 /* MovaIOTestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovaIOTestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		491A44BD22B19FDB00413402 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		491A44C422B19FDC00413402 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		491A44C722B19FDC00413402 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		491A44C922B19FDC00413402 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		491A44D122B1B69300413402 /* FlickrNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrNetworkManager.swift; sourceTree = "<group>"; };
+		491A44D322B1BD2500413402 /* FlickrSearchingResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrSearchingResponseModel.swift; sourceTree = "<group>"; };
+		491A44D522B1C12B00413402 /* FlickrSearchingHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrSearchingHistoryViewController.swift; sourceTree = "<group>"; };
+		49A5254822B2E7CA00674118 /* SearchingPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchingPhoto.swift; sourceTree = "<group>"; };
+		49A5254C22B2E83700674118 /* HistoryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		49A5254F22B2EAF600674118 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		870E79F0E7C38138E93B031F /* Pods_MovaIOTestProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MovaIOTestProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CD24E2B65BFDA28D452466D /* Pods-MovaIOTestProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovaIOTestProject.release.xcconfig"; path = "Target Support Files/Pods-MovaIOTestProject/Pods-MovaIOTestProject.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		491A44B722B19FDB00413402 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3E9E74BBCC875E34C173245 /* Pods_MovaIOTestProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40714304226F902D402C4D24 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3318EEFBEFAAA25415354865 /* Pods-MovaIOTestProject.debug.xcconfig */,
+				8CD24E2B65BFDA28D452466D /* Pods-MovaIOTestProject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		491A44B122B19FDA00413402 = {
+			isa = PBXGroup;
+			children = (
+				491A44BC22B19FDB00413402 /* MovaIOTestProject */,
+				491A44BB22B19FDB00413402 /* Products */,
+				40714304226F902D402C4D24 /* Pods */,
+				CBEBEE95692910656B4BE111 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		491A44BB22B19FDB00413402 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				491A44BA22B19FDB00413402 /* MovaIOTestProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		491A44BC22B19FDB00413402 /* MovaIOTestProject */ = {
+			isa = PBXGroup;
+			children = (
+				491A44BD22B19FDB00413402 /* AppDelegate.swift */,
+				491A44C422B19FDC00413402 /* Assets.xcassets */,
+				491A44C622B19FDC00413402 /* LaunchScreen.storyboard */,
+				491A44C922B19FDC00413402 /* Info.plist */,
+				49A5254B22B2E7F700674118 /* Cells */,
+				49A5254A22B2E7ED00674118 /* Controller */,
+				49A5254E22B2EAB200674118 /* Networking */,
+				49A5254722B2E7B900674118 /* Models */,
+			);
+			path = MovaIOTestProject;
+			sourceTree = "<group>";
+		};
+		49A5254722B2E7B900674118 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				49A5254822B2E7CA00674118 /* SearchingPhoto.swift */,
+				491A44D322B1BD2500413402 /* FlickrSearchingResponseModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		49A5254A22B2E7ED00674118 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				491A44D522B1C12B00413402 /* FlickrSearchingHistoryViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		49A5254B22B2E7F700674118 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				49A5254C22B2E83700674118 /* HistoryCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		49A5254E22B2EAB200674118 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				49A5254F22B2EAF600674118 /* Constants.swift */,
+				491A44D122B1B69300413402 /* FlickrNetworkManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		CBEBEE95692910656B4BE111 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				870E79F0E7C38138E93B031F /* Pods_MovaIOTestProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		491A44B922B19FDB00413402 /* MovaIOTestProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 491A44CC22B19FDC00413402 /* Build configuration list for PBXNativeTarget "MovaIOTestProject" */;
+			buildPhases = (
+				6CE8B685D55B51FC51A0864F /* [CP] Check Pods Manifest.lock */,
+				491A44B622B19FDB00413402 /* Sources */,
+				491A44B722B19FDB00413402 /* Frameworks */,
+				491A44B822B19FDB00413402 /* Resources */,
+				3B1A7BDB3422B812A58F294A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MovaIOTestProject;
+			productName = MovaIOTestProject;
+			productReference = 491A44BA22B19FDB00413402 /* MovaIOTestProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		491A44B222B19FDA00413402 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Self Organization";
+				TargetAttributes = {
+					491A44B922B19FDB00413402 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 491A44B522B19FDB00413402 /* Build configuration list for PBXProject "MovaIOTestProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 491A44B122B19FDA00413402;
+			productRefGroup = 491A44BB22B19FDB00413402 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				491A44B922B19FDB00413402 /* MovaIOTestProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		491A44B822B19FDB00413402 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				491A44C822B19FDC00413402 /* LaunchScreen.storyboard in Resources */,
+				491A44C522B19FDC00413402 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B1A7BDB3422B812A58F294A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MovaIOTestProject/Pods-MovaIOTestProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MovaIOTestProject/Pods-MovaIOTestProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MovaIOTestProject/Pods-MovaIOTestProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CE8B685D55B51FC51A0864F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MovaIOTestProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		491A44B622B19FDB00413402 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				491A44D622B1C12C00413402 /* FlickrSearchingHistoryViewController.swift in Sources */,
+				491A44D422B1BD2500413402 /* FlickrSearchingResponseModel.swift in Sources */,
+				491A44D222B1B69300413402 /* FlickrNetworkManager.swift in Sources */,
+				49A5254922B2E7CA00674118 /* SearchingPhoto.swift in Sources */,
+				49A5255022B2EAF600674118 /* Constants.swift in Sources */,
+				49A5254D22B2E83700674118 /* HistoryCollectionViewCell.swift in Sources */,
+				491A44BE22B19FDB00413402 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		491A44C622B19FDC00413402 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				491A44C722B19FDC00413402 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		491A44CA22B19FDC00413402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		491A44CB22B19FDC00413402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		491A44CD22B19FDC00413402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3318EEFBEFAAA25415354865 /* Pods-MovaIOTestProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K8WW2B34RU;
+				INFOPLIST_FILE = MovaIOTestProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = project.test.io.mova.MovaIOTestProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		491A44CE22B19FDC00413402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CD24E2B65BFDA28D452466D /* Pods-MovaIOTestProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K8WW2B34RU;
+				INFOPLIST_FILE = MovaIOTestProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = project.test.io.mova.MovaIOTestProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		491A44B522B19FDB00413402 /* Build configuration list for PBXProject "MovaIOTestProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				491A44CA22B19FDC00413402 /* Debug */,
+				491A44CB22B19FDC00413402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		491A44CC22B19FDC00413402 /* Build configuration list for PBXNativeTarget "MovaIOTestProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				491A44CD22B19FDC00413402 /* Debug */,
+				491A44CE22B19FDC00413402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 491A44B222B19FDA00413402 /* Project object */;
+}
